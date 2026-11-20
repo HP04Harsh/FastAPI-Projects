@@ -1,0 +1,7 @@
+fastapi[standard]
+uvicorn
+pymongo
+python-dotenv
+pypdf2
+groq
+pydantic

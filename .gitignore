@@ -2,7 +2,19 @@
 venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+
+# Environment files are local-only; keep safe templates.
 .env
 .env.*
 !.env.example
-.pytest_cache/
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local databases, documents, and uploaded files.
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+**/data/uploads/

@@ -1,0 +1,16 @@
+fastapi[standard]
+uvicorn
+langchain
+langchain-community
+langchain-core
+langchain-qdrant
+langchain-openai
+langchain-huggingface
+langchain-text-splitters
+pypdf
+python-dotenv
+qdrant-client
+openai
+pydantic
+sentence-transformers
+groq
